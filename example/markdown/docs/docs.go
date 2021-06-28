@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/swaggo/swag"
+	"github.com/apexswing/swag"
 )
 
 var doc = `{

@@ -13,9 +13,9 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/apexswing/swag"
 	"github.com/ghodss/yaml"
 	"github.com/go-openapi/spec"
-	"github.com/swaggo/swag"
 )
 
 // Gen presents a generate tool for swag.
@@ -260,7 +260,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/swaggo/swag"
+	"github.com/apexswing/swag"
 )
 
 var doc = ` + "`{{ printDoc .Doc}}`" + `

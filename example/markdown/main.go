@@ -1,11 +1,12 @@
 package main
 
 import (
+	"net/http"
+
+	"github.com/apexswing/swag/example/markdown/api"
+	_ "github.com/apexswing/swag/example/markdown/docs"
 	"github.com/gorilla/mux"
 	httpSwagger "github.com/swaggo/http-swagger"
-	"github.com/swaggo/swag/example/markdown/api"
-	_ "github.com/swaggo/swag/example/markdown/docs"
-	"net/http"
 )
 
 // @title Swagger Example API
